@@ -39,7 +39,7 @@ function create(){
 			'book_comment' => $_POST['book_comment']
 		);
 			newBook($data); // Dit voert de 'newBook' functie in de model uit.
-				echo "<script>alert('Boek toegevoegd'); window.location = '/library/';</script>";
+				echo "<script>alert('Boek toegevoegd'); window.location = '/examen/';</script>";
 	}
 	render("library/create"); // Dit toont de create.php
 }
@@ -55,7 +55,7 @@ function delete($id){
 
 function deleteThis($id){
 		deleteBook($id); // Dit voert de 'deleteBook' functie in de model uit.
-	echo "<script>alert('Boek verwijderd'); window.location = '/library/';</script>";
+	echo "<script>alert('Boek verwijderd'); window.location = '/examen/';</script>";
 }
 
 
@@ -71,7 +71,7 @@ function edit($id){
 // Dit word uitgevoerd als je in de edit.php op opslaan klikt
 function saveEdit(){
 		update($_POST);
-	echo "<script>alert('Boek is aangepast'); window.location = '/library/';</script>";
+	echo "<script>alert('Boek is aangepast'); window.location = '/examen/';</script>";
 }
 
 // /*Made by Kevin Kraaijveld*/

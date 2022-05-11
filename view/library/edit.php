@@ -21,6 +21,6 @@ $data = $book[0];
         <input type="hidden" name="id" value="<?= $data['book_id'] ?>">
 
     <input type="submit" value="Opslaan">
-    <input type="button" name="cancel" value="Annuleren" onClick="window.location='/library/';" />
+    <input type="button" name="cancel" value="Annuleren" onClick="window.location='/examen/';" />
   </form>
 </div>

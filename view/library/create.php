@@ -16,6 +16,6 @@
     <input type="text" id="book_comment" name="book_comment" minlength="2" maxlength="255" placeholder="Beschrijving">
 
     <input type="submit" value="Versturen">
-    <input type="button" name="cancel" value="Annuleren" onClick="window.location='/library/';" />
+    <input type="button" name="cancel" value="Annuleren" onClick="window.location='/examen/';" />
   </form>
 </div>

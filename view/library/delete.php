@@ -18,6 +18,6 @@ $data = $book[0];
     <input type="text" name="book_comment" placeholder="<?echo $data['book_comment'];?>" readonly>
 
     <input type="submit" value="Verwijderen">
-    <input type="button" name="cancel" value="Annuleren" onClick="window.location='/library/';" />
+    <input type="button" name="cancel" value="Annuleren" onClick="window.location='/examen/';" />
   </form>
 </div>
